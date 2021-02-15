@@ -34,7 +34,7 @@ export default function Home({ allPostsData }) {
           Get started by clicking on Old-Records.
         </p>
           <p>
-          On Employee-Data <br />Their Are Two Profiles for their user to use. <br />Admin <br />User
+          On Old-Records <br />Their Are Two Profiles for their user to use. <br />Admin <br />User
           </p>
 
       </section>
