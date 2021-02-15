@@ -1,11 +1,16 @@
 ---
 title: 'User'
-date: '2020-01-01'
+date: '2021-02-13'
 ---
 
-Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
+The **User** profile on the home page provides user to login to its profile to check its stored details into **Database** stored by **Admin**.
 
-- **Static Generation** is the pre-rendering method that generates the HTML at **build time**. The pre-rendered HTML is then _reused_ on each request.
-- **Server-side Rendering** is the pre-rendering method that generates the HTML on **each request**.
+**Operation a User Profile holder can do**
 
-Importantly, Next.js lets you **choose** which pre-rendering form to use for each page. You can create a "hybrid" Next.js app by using Static Generation for most pages and using Server-side Rendering for others.
+**First** he has to login to his profile on home page by using its admin provided login credentials.
+
+**Then** he can check all the details stored by the admin about him.
+
+**In the case of adding new details** A user profile holder can add new details to the database **But** The user profile holder can add only details to his child profile.
+
+**But** he can’t modify the admin provided details about him.
