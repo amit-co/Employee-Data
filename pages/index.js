@@ -18,7 +18,7 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
-        <title>Employee-Data</title>
+        <title>Old-Records</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -26,15 +26,15 @@ export default function Home({ allPostsData }) {
         <h1>
           Welcome to{' '}
           <Link href="/posts/login">
-           <a>Employee-Data</a>
+           <a>Old-Records</a>
            </Link>
         </h1>
 
         <p>
-          Get started by clicking on Employee-Data.
+          Get started by clicking on Old-Records.
         </p>
           <p>
-          On Employee-Data <br />Their Are Two Profiles for their user to use. <br />Admin <br />Employee
+          On Employee-Data <br />Their Are Two Profiles for their user to use. <br />Admin <br />User
           </p>
 
       </section>
