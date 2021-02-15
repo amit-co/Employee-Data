@@ -7,3 +7,4 @@ module.exports = {
     'MYSQL_PASSWORD': 'Amit@123',
   }
 }
+

@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Head from 'next/head'
 import Layout from'../../components/layout'
+import { useState } from 'react';
 
 export default function FirstPost() {
   return (
@@ -10,7 +11,7 @@ export default function FirstPost() {
     	<title>Login</title>
     </Head>
       <h1>
-		    Employee-Data Login Page
+		    Old-Record Login Page
       </h1>
       </Layout>
     </>
